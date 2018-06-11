@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Début section 1-->
+    <section class="section1">
+        <center>
+            <h1 class="text-primary pt-5">JavaScript:Dom</h1>
+        </center>
+        <div class="row pt-5 pb-5 justify-content-around" id="MesBoutons">
+            <a class="btn btn-primary active" href="#" role="button" data-position="1">Exo1</a>
+            <a class="btn btn-primary" href="#" role="button" data-position="2">Exo2</a>
+            <a class="btn btn-primary" href="#" role="button" data-position="3">Exo3</a>
+            <a class="btn btn-primary" href="#" role="button" data-position="4">Exo4</a>
+            <a class="btn btn-primary" href="#" role="button" data-position="5">Exo5</a>
+            <a class="btn btn-primary" href="#" role="button" data-position="6">Exo6</a>
+            <a class="btn btn-primary" href="#" role="button" data-position="7">Exo7</a>
+            <a class="btn btn-primary" href="#" role="button" data-position="8">Exo8</a>
+            <a class="btn btn-primary" href="#" role="button" data-position="9">Exo9</a>
+            <a class="btn btn-primary" href="#" role="button" data-position="10">Exo10</a>
+        </div>
+
+        <!---------------------------------------------------------------------------------------------->
+
+
+        <div class="container" id="container-panel">
+            <!-- EXERCICE 1 -->
+            <div class="row pt-5 panel" id="exo1-panel">
+                <div id="col6exo" class="col-6 bg-primary pt-5">
+                    <div>
+                        <h3 id="titreexo1" class="text-dark">EXERCICE 1</h3>
+                        <p class="text-dark pt-5">May the force be with you</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- FIN EXERCICE 1 -->
+
+
+            <!--------------------------------------------------------------------------------------------->
+
+
+            <!-- EXERCICE 2 -->
+            <div class="row pt-5 panel" id="exo2-panel">
+                <div id="col6exo" class="col-6 bg-primary pt-5">
+                    <div>
+                        <h3 id="titreexo1" class="text-dark">EXERCICE 2</h3>
+                        <p class="text-dark pt-5">May the force be with you</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- FIN EXERCICE 2 -->
+
+            <!------------------------------------------------------------------------------------>
+
+
+            <!-- EXERCICE 3 -->
+            <div class="row pt-5 panel" id="exo3-panel">
+                <div id="col6exo" class="col-6 bg-primary pt-5">
+                    <div>
+                        <h3 id="titreexo1" class="text-dark">EXERCICE 3</h3>
+                        <p class="text-dark pt-5">May the force be with you</p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- FIN EXERCICE 3 -->
+
+
+            <!------------------------------------------------------------------------------------>
+
+
+
+            <!-- EXERCICE 4 -->
+            <div class="container panel" id="exo4-panel">
+                <div class="row pt-5  justify-content-around">
+                    <div class="col-5 bg-anakinyoung" id="parent1">
+
+                        <h3 class="pt-5 pb-5 text-warning">
+                            May the force
+                        </h3>
+
+                    </div>
+                    <div class="col-5" id="parent2">
+
+                    </div>
+                </div>
+
+                <center>
+                    <button class="btn btn-warning mt-5" type="submit">DarkSide</button>
+
+                </center>
+            </div>
+
+            <!-- FIN EXERCICE 4 -->
+
+            <!------------------------------------------------------------------------------------>
+
+            <!-- EXERCICE 5 -->
+            <div class="container panel" id="exo5-panel">
+                <div class="bg-primary" id="exo-5-panel">
+                    <h2>Générer des éléments du DOM</h2>
+                    <p>Cliquer sur le bouton ci-dessous pour générer des oeufs.</p>
+                    <button class="add-egg btn btn-success">Ajouter un oeuf</button>
+                    <div class="panier"></div>
+
+                </div>
+            </div>
+            <!-- FIN EXERCICE 5 -->
+
+            <!------------------------------------------------------------------------------------>
+
+
+            <!-- Exercice 6 -->
+            <div class="container panel" id="exo6-panel">
+
+                <!-- LEVEL 1 -->
+                <center>
+                    <h2 class="text-primary justify-content-center pt-5">Création calculatrice</h2>
+                    <h3 class="text-primary">Niveau 1</h3>
+                    <input type="text" class="nb1"> +
+                    <input type="text" class="nb2">
+                    <button class="calc1">=</button>
+                    <span class="result1 text-primary"></span>
+
+
+                    <!-- LEVEL 2 -->
+                    <h3 class="text-primary pt-5">Niveau 2</h3>
+                    <div class="w-50 m-auto bg-dark" id="fond-calculatrice">
+
+                        <div class="row justify-content-around pt-2">
+                            <button type="button" class="btn btn-primary col-2 chiffre ">7</button>
+                            <button type="button" class="btn btn-primary col-2 chiffre ">8</button>
+                            <button type="button" class="btn btn-primary col-2 chiffre">9</button>
+                            <button type="button" class="btn btn-warning col-3 operation">+</button>
+                        </div>
+
+                        <div class="row justify-content-around pt-2">
+                            <button type="button" class="btn btn-primary col-2 chiffre">4</button>
+                            <button type="button" class="btn btn-primary col-2 chiffre ">5</button>
+                            <button type="button" class="btn btn-primary col-2 chiffre">6</button>
+                            <button type="button" class="btn btn-warning col-3 operation">-</button>
+                        </div>
+
+                        <div class="row justify-content-around pt-2">
+                            <button type="button" class="btn btn-primary col-2 chiffre ">1</button>
+                            <button type="button" class="btn btn-primary col-2 chiffre">2</button>
+                            <button type="button" class="btn btn-primary col-2 chiffre">3</button>
+                            <button type="button" class="btn btn-warning col-3 operation">/</button>
+                        </div>
+
+                        <div class="row justify-content-around pt-2">
+                            <button type="button" class="btn btn-primary col-2 chiffre ">0</button>
+                            <button type="button" class="btn btn-primary col-2 chiffre ">.</button>
+                            <button type="button" class="btn btn-light col-2 egal">=</button>
+                            <button type="button" class="btn btn-warning col-3 operation">*</button>
+                        </div>
+
+                        <div class="row justify-content-around pt-2">
+                            <div class="col-2 p-0"></div>
+                            <button type="button" class="btn btn-danger col-2 justify-content-center">C</button>
+                            <div class="col-2"></div>
+                            <div class="col-2"></div>
+                        </div>
+
+                        <input type="text" class="nbr text-primary">
+                        <div class="resultat bg-light mt-2">0</div>
+                    </div>
+
+
+
+
+                </center>
+            </div>
+            <!-- Fin Exercice 6 -->
+
+
+            <!------------------------------------------------------------------------------------>
+
+
+
+            <!-- Exercice 7 -->
+            <div class="container panel active" id="exo7-panel">
+                <h3 class="text-primary mx-auto ">
+                    To Do List
+                </h3>
+                <div class="row  bg-primary pt-5 pb-5" id="rowtodolist">
+                    <input class="form-control col-9 mt-5" type="text" placeholder="Accompli ta tâche" id="nametask">
+                    <button type="button" class="btn btn-dark mt-5 col-3" id="btnok">OK</button>
+                </div>
+                <button type="button" class="btn btn-success mt-5" id="btnall">All</button>
+                <button type="button" class="btn btn-success mt-5" id="btntodo">To Do</button>
+                <button type="button" class="btn btn-success mt-5" id="btndone">Done</button>
+
+                <div class="tasklist pt-5">
+
+
+                </div>
+
+
+
+
+            </div>
+            <!-- Fin exercice 7 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <!-- FIn CONTAINER -->
+
+
+
+
+    </section>
+    <!-- Fin section 1 -->
+
+
+
+
+
+
+
+    <!-- Link JavaScript -->
+    <script type="module" src="./assets/js/app.js"></script>
+
+    <script src="./node_modules/fontawesome-free-5.0.8/svg-with-js/js/fontawesome-all.min.js"></script>
+
+</body>
+
+
+</html>

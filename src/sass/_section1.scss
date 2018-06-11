@@ -1,0 +1,53 @@
+.section1 {
+    background-image: url("../../assets/img/javascript.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.col-6 {
+    border-radius: 25px;
+}
+
+.panel {
+    display: none;
+
+    &.active {
+        display: block;
+    }
+}
+
+//-------------------------------------------------------------------------------------//
+
+.col-5 {
+    border-radius: 25px;
+    margin: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+.bg-anakinyoung {
+    background-image: url("../../assets/img/younganakin.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-anakinold {
+    background-image: url("../../assets/img/anakin_skywalker_2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+// -----------------------------------------------------------------------------//
+
+#exo6-panel {
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 15px;
+}
+
+#fond-calculatrice {
+    border-radius: 15px;
+}

@@ -1,0 +1,41 @@
+#btnok {
+    height: 50%;
+}
+
+#rowtodolist {
+    border-radius: 25px;
+}
+
+.tasklist {
+    border-radius: 25px;
+
+    .newTask {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+}
+
+span {
+    padding-left: 15px;
+}
+
+.border25 {
+    border-radius: $border-radius;
+}
+
+
+.done {
+    .bg-white{
+        display: none
+    }
+}
+
+.todo {
+    .bg-primary{
+        display: none
+    }
+}
+
